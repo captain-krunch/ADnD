@@ -17,7 +17,7 @@ public:
 	virtual void BeginPlay() override;
 
 protected:
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "UI", Meta = (BlueprintProtected = "true"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "UMG Settings", Meta = (BlueprintProtected = "true"))
 	TSubclassOf<class UUserWidget> UIWidgetClass;
 
 	UPROPERTY()
